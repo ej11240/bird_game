@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trees"
+    >
+
+    <ImageView
+        android:id="@+id/bird"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginTop="220dip"
+        android:layout_marginLeft="150dip"
+         />
+
+    <ImageView
+        android:id="@+id/lava1"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginTop="60dip"
+        android:layout_marginLeft="150dip"
+        android:src="@drawable/lava" />
+
+    <ImageView
+            android:id="@+id/lava2"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_marginTop="220dip"
+            android:layout_marginLeft="150dip"
+            android:src="@drawable/lava2"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="처음화면으로 돌아가기" />
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/lava3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:srcCompat="@tools:sample/avatars"-->
+<!--        android:src="@drawable/lava3"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/lava4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:srcCompat="@tools:sample/avatars"-->
+<!--        android:src="@drawable/lava4"/>-->
+</FrameLayout>

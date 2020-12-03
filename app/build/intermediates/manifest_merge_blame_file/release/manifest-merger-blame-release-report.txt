@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bird_game"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\SM-PC\.gradle\caches\transforms-2\files-2.1\905808b10bc47511b6c6896a37787f2b\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:extractNativeLibs="false"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/Theme.AppCompat.NoActionBar" >
+19-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:11:9-59
+20        <activity android:name="com.example.bird_game.MainActivity" >
+20-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:13:9-19:20
+20-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:13:19-47
+21            <intent-filter>
+21-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:14:13-18:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:15:17-69
+22-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:15:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:17:17-77
+24-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:17:27-74
+25            </intent-filter>
+26        </activity>
+27        <activity android:name="com.example.bird_game.FeedActivity" />
+27-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:20:9-59
+27-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:20:19-47
+28        <activity android:name="com.example.bird_game.FlyActivity" />
+28-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:21:9-58
+28-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:21:19-46
+29        <activity android:name="com.example.bird_game.SaveActivity" />
+29-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:22:9-59
+29-->C:\Users\SM-PC\Desktop\bird_game\app\src\main\AndroidManifest.xml:22:19-47
+30    </application>
+31
+32</manifest>
